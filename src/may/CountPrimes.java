@@ -2,7 +2,7 @@ package may;
 
 public class CountPrimes {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionCountPrimes solution = new SolutionCountPrimes();
         System.out.println(solution.countPrimes(10));
         System.out.println(solution.countPrimes(0));
         System.out.println(solution.countPrimes(1));
@@ -10,7 +10,7 @@ public class CountPrimes {
     }
 }
 
-class Solution {
+class SolutionCountPrimes {
     public int countPrimes(int n) {
         boolean[] isPrime = new boolean[n];
         int result = 0;

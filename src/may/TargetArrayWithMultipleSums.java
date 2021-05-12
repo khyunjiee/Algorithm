@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class TargetArrayWithMultipleSums {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionTargetArrayWithMultipleSums solution = new SolutionTargetArrayWithMultipleSums();
         System.out.println(solution.isPossible(new int[]{9, 3, 5}));
         System.out.println(solution.isPossible(new int[]{1, 1, 1, 2}));
         System.out.println(solution.isPossible(new int[]{8, 5}));
@@ -14,7 +14,7 @@ public class TargetArrayWithMultipleSums {
     }
 }
 
-class Solution {
+class SolutionTargetArrayWithMultipleSums {
     public boolean isPossible(int[] target) {
         Queue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
         int totalSum = 0;

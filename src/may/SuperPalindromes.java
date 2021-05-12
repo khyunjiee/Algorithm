@@ -2,19 +2,19 @@ package may;
 
 public class SuperPalindromes {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionSuperPalindromes solution = new SolutionSuperPalindromes();
         System.out.println(solution.superpalindromesInRange("4", "1000"));
         System.out.println(solution.superpalindromesInRange("1", "2"));
     }
 }
 
-class Solution {
+class SolutionSuperPalindromes {
     public int superpalindromesInRange(String left, String right) {
         int count = 0;
         long leftNum = Long.parseLong(left);
         long rightNum = Long.parseLong(right);
         int MAX = 100000;
-        
+
         // 길이가 홀수인 palindrom
         for (int i = 1; i < MAX; ++i) {
             StringBuilder sb = new StringBuilder(Integer.toString(i));
