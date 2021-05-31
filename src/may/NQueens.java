@@ -4,7 +4,8 @@ public class NQueens {
     public static void main(String[] args) {
         SolutionNQueens solution = new SolutionNQueens();
 //        System.out.println(solution.totalNQueens(4));
-        solution.totalNQueens(2);
+        System.out.println(solution.totalNQueens(5));
+//        System.out.println(solution.totalNQueens(6));
     }
 }
 
@@ -25,7 +26,6 @@ class SolutionNQueens {
         for (int i = 0; i < n; i++) {
             array[row] = i;
             if (checkValidation(array, row)) {
-                pringArr(array);
                 placeQueens(array, row + 1, n);
             }
         }
@@ -38,12 +38,5 @@ class SolutionNQueens {
             }
         }
         return true;
-    }
-
-    private void pringArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
     }
 }
