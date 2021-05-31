@@ -1,9 +1,13 @@
 # Leet Code Algorithm
 
 📌 **Goal** : `LeetCoding Challenge` 를 활용한 1일 1알고리즘 해결
+📌 **Posting** : 토글 버튼을 눌러 테이블의 문제 제목을 클릭하면 풀이법이 작성된 테크 블로그로 연결됩니다.
 
-**2021년 5월**
-
+<details>
+<summary>2021년 5월</summary>
+<div markdown="1">      
+<br/>
+  
 | 21/05/09                                                     | 21/05/10                                                     | 21/05/11                                                     | 21/05/12                                                     | 21/05/13                                                     | 21/05/14                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Super Palindromes](https://velog.io/@khyunjiee/Leet-Code-Super-Palindromes) | [Construct Target Array With Multiple Sums](https://velog.io/@khyunjiee/Leet-Code-Construct-Target-Array-With-Multiple-Sums) | [Count Primes](https://velog.io/@khyunjiee/Leet-Code-Count-Primes) | [Maximum Points You Can Obtain from Cards](https://velog.io/@khyunjiee/Leet-Code-Maximum-Points-You-Can-Obtain-from-Cards) | [Range Sum Query 2D - Immutable](https://velog.io/@khyunjiee/Leet-Code-Range-Sum-Query-2D-Immutable) | [Ambiguous Coordinates](https://velog.io/@khyunjiee/Leet-Code-Ambiguous-Coordinates) |
@@ -12,3 +16,7 @@
 | **21/05/25**                                                 | **21/05/26**                                                 | **21/05/30**                                                 | **21/05/31**                                                 |                                                              |                                                              |
 | [Evaluate Reverse Polish Notation](https://velog.io/@khyunjiee/Leet-Code-Evaluate-Reverse-Polish-Notation) | Partitioning Into Minimum Number Of Deci-Binary Numbers      | [N Queens II](https://velog.io/@khyunjiee/Leet-Code-N-Queens-II) | [Maximum Gap](https://velog.io/@khyunjiee/Leet-Code-Maximum-Gap) |                                                              |                                                              |
 
+
+
+</div>
+</details>
