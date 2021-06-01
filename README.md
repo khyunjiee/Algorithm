@@ -8,7 +8,7 @@
 <summary>2021년 5월</summary>
 <div markdown="1">      
 <br/>
-  
+
 | 21/05/09                                                     | 21/05/10                                                     | 21/05/11                                                     | 21/05/12                                                     | 21/05/13                                                     | 21/05/14                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Super Palindromes](https://velog.io/@khyunjiee/Leet-Code-Super-Palindromes) | [Construct Target Array With Multiple Sums](https://velog.io/@khyunjiee/Leet-Code-Construct-Target-Array-With-Multiple-Sums) | [Count Primes](https://velog.io/@khyunjiee/Leet-Code-Count-Primes) | [Maximum Points You Can Obtain from Cards](https://velog.io/@khyunjiee/Leet-Code-Maximum-Points-You-Can-Obtain-from-Cards) | [Range Sum Query 2D - Immutable](https://velog.io/@khyunjiee/Leet-Code-Range-Sum-Query-2D-Immutable) | [Ambiguous Coordinates](https://velog.io/@khyunjiee/Leet-Code-Ambiguous-Coordinates) |
@@ -21,3 +21,10 @@
 
 </div>
 </details>
+
+2021년 6월
+
+| 21/06/01                                                     |      |      |      |      |      |
+| ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- |
+| [Search Suggestions System](https://velog.io/@khyunjiee/Leet-Code-Search-Suggestions-System) |      |      |      |      |      |
+
