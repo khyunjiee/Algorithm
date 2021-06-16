@@ -24,7 +24,7 @@
 
 2021년 6월
 
-| 21/06/01                                                     | 21/06/14                                                     | 21/06/15              |      |      |      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- | ---- | ---- | ---- |
-| [Search Suggestions System](https://velog.io/@khyunjiee/Leet-Code-Search-Suggestions-System) | [Maximum Units on a Truck](https://velog.io/@khyunjiee/Leet-Code-Maximum-Units-on-a-Truck) | Matchsticks to Square |      |      |      |
+| 21/06/01                                                     | 21/06/14                                                     | 21/06/15                                                     |      |      |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- |
+| [Search Suggestions System](https://velog.io/@khyunjiee/Leet-Code-Search-Suggestions-System) | [Maximum Units on a Truck](https://velog.io/@khyunjiee/Leet-Code-Maximum-Units-on-a-Truck) | [Matchsticks to Square](https://velog.io/@khyunjiee/Leet-Code-Matchsticks-to-Square) |      |      |      |
 

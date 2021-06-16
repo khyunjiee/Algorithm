@@ -5,17 +5,18 @@ import java.util.Collections;
 
 public class MatchsticksToSquare {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionMatchsticksToSquare solution = new SolutionMatchsticksToSquare();
         System.out.println(solution.makesquare(new int[]{3, 3, 3, 3, 4}));
         System.out.println(solution.makesquare(new int[]{1, 1, 2, 2, 2}));
     }
 }
 
-class Solution {
+class SolutionMatchsticksToSquare {
     public boolean makesquare(int[] matchsticks) {
         boolean result = false;
 
         if (matchsticks == null || matchsticks.length < 4) return result;
+
         int sum = 0;
         for (int stick: matchsticks) {
             sum += stick;
