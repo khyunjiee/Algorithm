@@ -67,3 +67,26 @@ public class b2493 {
     }
 
 }
+//public class b2493 {
+//    public static void main(String[] args) throws IOException{
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine().trim());
+//        int[] laser = new int[n];
+//        StringTokenizer st = new StringTokenizer(br.readLine());
+//        Stack<Integer> stack = new Stack<>();
+//        StringBuilder receive = new StringBuilder();
+//        int receiveNo = 0;
+//
+//        for (int i = 0; i < n; i++) {
+//            receiveNo = 0;
+//            laser[i] = Integer.parseInt(st.nextToken());
+//
+//            while (!stack.isEmpty() && laser[stack.peek()] < laser[i]) stack.pop();
+//
+//            if (!stack.isEmpty()) receiveNo = stack.peek()+1;
+//            receive.append(receiveNo + " ");
+//            stack.push(i);
+//        }
+//        System.out.println(receive);
+//    }
+//}
