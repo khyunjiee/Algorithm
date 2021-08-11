@@ -36,7 +36,7 @@ public class b16926 {
         int R = Integer.parseInt(st.nextToken());   // 회전 횟수
         d = 0;  // 방향
 
-        map = new int[N+2][M+2];    // 듈래애 padding을 줘서 벽임을 의미함
+        map = new int[N+2][M+2];    // 테두리에 padding을 줘서 벽임을 의미함
 
         // original 배열 초기화
         for (int n = 1; n <= N; ++n) {
