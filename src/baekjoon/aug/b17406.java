@@ -61,7 +61,6 @@ public class b17406 {
         // 연산 순열 탐색
         perm(0, map);
         System.out.println(min);
-
     }
 
     // 연산 순열
