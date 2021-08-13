@@ -1,4 +1,4 @@
-package baekjoon.aug;
+package baekjoon.aug.before11;
 
 import java.util.Scanner;
 
