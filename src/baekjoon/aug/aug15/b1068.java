@@ -52,7 +52,7 @@ public class b1068 {
 
     // 자식들을 모두 삭제
     private static void remove(int index) {
-        parents[index] = -2;    // 매개변수로 드러오는 인덱스 값을 -2로 저장
+        parents[index] = -2;    // 매개변수로 들어오는 인덱스 값을 -2로 저장
 
         // 매개변수 인덱스 노드를 부모로 하는 모든 인덱스에 대해 재귀
         for (int i = 0; i < parents.length; ++i) {
