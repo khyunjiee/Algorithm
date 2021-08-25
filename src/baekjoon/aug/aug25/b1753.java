@@ -89,7 +89,7 @@ public class b1753 {
 
             for(Node currNode = node; currNode != null; currNode = currNode.link) {
                 // 방문한 정점이 아니고 distance를 갱신할 수 있으면
-                if (!visited[currNode.vertex] && distance[e.no] + currNo를de.weight < distance[currNode.vertex]) {
+                if (!visited[currNode.vertex] && distance[e.no] + currNode.weight < distance[currNode.vertex]) {
                     distance[currNode.vertex] = distance[e.no] + currNode.weight;   // distance 업데이트
                     pq.offer(new CheckNode(currNode.vertex, distance[currNode.vertex])); // 큐에 해당 간선 삽입
                 }

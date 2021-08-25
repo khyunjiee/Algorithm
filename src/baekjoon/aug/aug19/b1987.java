@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  * 접근 방식:
  * DFS 로 풀었습니다.
- * 이미 갔던 알파벳은 isVisit 배열에 boolean으로 저장했습니다.
+ * 이미 갔던 알파벳은 비트마스킹을 활용해서 visit 처리를 했습니다.
  * 인덱스는 알파벳을 A로 뺀 값을 인덱스로 저장해 쉽게 접근했습니다.
  *
  * 시간 복잡도:
@@ -21,7 +21,6 @@ public class b1987 {
 
     static int R, C, max;
     static char map[][];
-    static boolean isVisit[];
 
     // 상 하 좌 우
     static int[] dr = { -1, 1, 0, 0 };
@@ -35,31 +34,24 @@ public class b1987 {
         C = Integer.parseInt(st.nextToken());   // 열
         max = Integer.MIN_VALUE;
         map = new char[R][C];
-        isVisit = new boolean[26];  // 총 26개의 알파벳에 대한 방문 여부를 체크하는 배열
 
         // 맵 초기화
         for (int i = 0; i < R; ++i) {
             map[i] = br.readLine().toCharArray();
         }
 
-        isVisit[map[0][0]-'A'] = true;  // 말이 처음 있는 자리를 true로 설정
-        go(0, 0, 1);        // 처음 있었던 자리부터 1 카운트
+        dfs(0, 0, 1<<map[0][0]-'A', 1);
         System.out.println(max);
     }
 
-    private static void go(int r, int c, int cnt) {
-        max = Math.max(cnt, max);       // 호출받을 때마다 max값을 계산
-
-        // 사방을 탐색한다.
-        for (int d = 0; d < 4; ++d) {
-            int nr = r + dr[d];
-            int nc = c + dc[d];
-
-            // 다음 좌표가 유효하고 한번도 방문하지 않은 알파벳이라면
-            if (isValid(nr, nc) && !isVisit[map[nr][nc]-'A']) {
-                isVisit[map[nr][nc]-'A'] = true;    // 방문 처리 후
-                go(nr, nc, cnt+1);            // 재귀
-                isVisit[map[nr][nc]-'A'] = false;  // 방문 처리 해제
+    private static void dfs(int x, int y, int flag, int cnt) {
+        max = Math.max(max, cnt);
+        int nr, nc;
+        for (int d = 0; d < 4; d++) {
+            nr = x + dr[d];
+            nc = y + dc[d];
+            if (isValid(nr, nc) && (flag & 1<<map[nr][nc]-'A') == 0) {
+                dfs(nr, nc, flag | 1<< (map[nr][nc]-'A'), cnt+1);
             }
         }
     }
