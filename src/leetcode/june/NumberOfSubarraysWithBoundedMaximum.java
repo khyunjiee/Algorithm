@@ -1,4 +1,4 @@
-package june;
+package leetcode.june;
 
 public class NumberOfSubarraysWithBoundedMaximum {
     public static void main(String[] args) {

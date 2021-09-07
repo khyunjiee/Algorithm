@@ -1,4 +1,4 @@
-package may;
+package leetcode.may;
 
 public class CountPrimes {
     public static void main(String[] args) {

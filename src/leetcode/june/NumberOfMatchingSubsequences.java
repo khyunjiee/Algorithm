@@ -1,4 +1,4 @@
-package june;
+package leetcode.june;
 
 import java.util.HashMap;
 import java.util.LinkedList;

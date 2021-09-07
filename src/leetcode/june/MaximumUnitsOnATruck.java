@@ -1,4 +1,4 @@
-package june;
+package leetcode.june;
 
 import java.util.Arrays;
 import java.util.Comparator;

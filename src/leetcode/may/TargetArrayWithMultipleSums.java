@@ -1,4 +1,4 @@
-package may;
+package leetcode.may;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

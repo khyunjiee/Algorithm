@@ -1,4 +1,4 @@
-package may;
+package leetcode.may;
 
 public class NQueens {
     public static void main(String[] args) {

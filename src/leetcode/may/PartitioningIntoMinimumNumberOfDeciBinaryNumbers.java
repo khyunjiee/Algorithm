@@ -1,4 +1,4 @@
-package may;
+package leetcode.may;
 
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 }
