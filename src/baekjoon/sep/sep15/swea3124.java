@@ -1,4 +1,4 @@
-package programmers.sep.sep15;
+package baekjoon.sep.sep15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
