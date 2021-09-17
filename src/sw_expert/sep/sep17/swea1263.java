@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 /**
  * SWEA 1263 사람 네트워크2
- * 
+ *
  * 접근 방식:
  * 플로이드-워샬 알고리즘 활용
  *
