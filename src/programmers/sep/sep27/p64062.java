@@ -18,12 +18,12 @@ package programmers.sep.sep27;
 
 public class p64062 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_p64062 solution = new Solution_p64062();
         System.out.println(solution.solution(new int[]{2, 4, 5, 3, 2, 1, 4, 2, 5, 1}, 3));
     }
 }
 
-class Solution {
+class Solution_p64062 {
     public int solution(int[] stones, int k) {
         int left = 1;
         int right = 200000000;  // stones 배열의 최대 원소
