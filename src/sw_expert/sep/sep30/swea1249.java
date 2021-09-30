@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
 /**
- * SWEA 1707 보급로 [D4]
+ * SWEA 1249 보급로 [D4]
  *
  * 접근 방식:
  * 처음에 dfs로 접근했다가 타임오버가 발생해
@@ -17,7 +17,7 @@ import java.util.PriorityQueue;
  *
  */
 
-public class swea1707 {
+public class swea1249 {
 
     static int result, total, N, map[][];
     static final int INF = Integer.MAX_VALUE;
