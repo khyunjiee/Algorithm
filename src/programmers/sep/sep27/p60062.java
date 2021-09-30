@@ -13,7 +13,7 @@ package programmers.sep.sep27;
  *
  * 소요 시간:
  * 1일..
- * 
+ *
  */
 
 public class p60062 {
