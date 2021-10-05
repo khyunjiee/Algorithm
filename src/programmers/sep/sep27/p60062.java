@@ -42,10 +42,10 @@ class Solution {
         do {
             for (int w = 0; w < wLen; w++) {
                 int start = circleWeak[w];          // 검사 시작 구간
-                int end = circleWeak[w+wLen-1];     // 마지막 취약 위
+                int end = circleWeak[w+wLen-1];     // 마지막 취약 위치
 
                 for (int d = 0; d < dLen; d++) {
-                start += dist[d];                                     // 친구가 검사할 수 있는 길이를 추가
+                    start += dist[d];                                     // 친구가 검사할 수 있는 길이를 추가
                     // start가 end 보다 크거나 같으면 마지막 취약점의 위치까지 검사한 것
                     if (start >= end) {
                         answer = Math.min(answer, d+1);                 // 현재까지 점검한 친구들의 수 -> 인덱스이므로 1 추가
@@ -81,17 +81,13 @@ class Solution {
     // current: 검사가 끝난 위치
     // weak[]: 취약 지점들
     private static int nextStart(int current, int[] weak) {
-        int result = Integer.MAX_VALUE;
-        int index = 0;
-
         for (int i = 0; i < weak.length; i++) {
             // 검사하지 않은 구간 중에 가장 current에서 가까운 인덱스를 구함
-            if (current < weak[i] && result >= weak[i]) {
-                result = weak[i];
-                index = i;
+            if (current < weak[i]) {
+                return i;
             }
         }
-        return index;
+        return 0;
     }
 
     private static void swap(int i, int j, int[] arr) {
