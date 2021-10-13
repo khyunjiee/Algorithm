@@ -13,13 +13,13 @@ bfs 문제같은데, dfs로 풀어보고싶어서 dfs로 풀었습니다.
 
 public class p67259 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.solution(new int[][] { {0, 0, 0}, {0, 0, 0}, {0, 0, 0} }));
-        System.out.println(solution.solution(new int[][] { {0,0,0,0,0,0,0,1}, {0,0,0,0,0,0,0,0}, {0,0,0,0,0,1,0,0}, {0,0,0,0,1,0,0,0}, {0,0,0,1,0,0,0,1}, {0,0,1,0,0,0,1,0}, {0,1,0,0,0,1,0,0}, {1,0,0,0,0,0,0,0} }));
+        Solution_p67259 solutionP67259 = new Solution_p67259();
+        System.out.println(solutionP67259.solution(new int[][] { {0, 0, 0}, {0, 0, 0}, {0, 0, 0} }));
+        System.out.println(solutionP67259.solution(new int[][] { {0,0,0,0,0,0,0,1}, {0,0,0,0,0,0,0,0}, {0,0,0,0,0,1,0,0}, {0,0,0,0,1,0,0,0}, {0,0,0,1,0,0,0,1}, {0,0,1,0,0,0,1,0}, {0,1,0,0,0,1,0,0}, {1,0,0,0,0,0,0,0} }));
     }
 }
 
-class Solution {
+class Solution_p67259 {
 
     // 하 상 우 좌
     int[][] delta = { {1, 0}, {-1, 0},{0, 1}, {0, -1} };
